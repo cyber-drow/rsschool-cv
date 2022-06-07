@@ -56,3 +56,23 @@ public class Reader {
     }
 }
 ```
+
+### Experience
+___
++ _system administrator_
++ _specialist of information systems and technologies_
++ _development of an interactive educational web quest for children. The project took the first place among students at the All-Russian competition_ 
++ _freelance work, more than 10 ready projects created in HTML, CSS, JS_
++ _website of the Finance Committee of the administration of the Balakovo municipal district_
+&nbsp;
+
+### Education
+___
+* **_secondary vocational education_**: [_Balakovo Technical College_](https://bpt-balv.ru/)
+* **_higher education_**: [_Balakovo Institute of Engineering and Technology - branch of NRNU MEPhI_](https://biti.mephi.ru/)
+&nbsp;
+
+### Language
+___
+* **_Russian_** - _native_
+* **_English_** - _intermediate B1_
