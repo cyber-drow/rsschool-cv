@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>cv</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/favicon.ico">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <div class="avatar">
+                <div class="wrap-img">
+                    <img src="assets/img/avatar.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="name">
+                <h1>sergey voronin</h1>
+                <p>graphics & web designer</p>
+            </div>
+        </header> 
+
+        <div class="line"></div>
+
+        <div class="main">
+            <div class="col-left">
+
+                <section class="contacts">
+                        <h2>contacts</h2>
+                        <ul>
+                            <li><span>Location: </span>Balakovo, Saratov area</li>
+                            <li><span>Phone: </span>+7 (937) 147-21-97</li>
+                            <li><span>Mail: </span>cbr.drw@ya.ru</li>
+                            <li><span>Site: </span>www.balkomfin.ru</li>
+                            <li><span>GitHub: </span>cyber-drow</li>
+                        </ul>
+                </section> <!--end contacts-->
+
+                <section class="languages">
+                    <h2>languages</h2>
+                    <ul>
+                        <li><span>Russian: </span>native</li>
+                        <li><span>English: </span>intermediate B1</li>
+                    </ul>
+                </section> <!--end languages-->
+
+                <section class="skills">
+                    <h2>skills</h2>
+                    <ul>
+                        <li>HTML&CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Git</li>
+                        <li>Figma, Photoshop</li>
+                        <li>Windows, Linux</li>
+                        <li>VSCode, SublimeText, Intellij Idea</li>
+                    </ul>
+                </section> <!--end skills-->
+
+                <section class="award">
+                    <h2>awards</h2>
+                    <ul>
+                        <li>Bachelor's degree with honors</li>
+                        <li>Website of the Finance Committee of the administration of the Balakovo municipal district</li>
+                        <li>Development of an interactive educational web quest for children. The project took the first place among students at the All-Russian competition</li>
+                    </ul>
+                </section> <!--end award-->
+
+                
+            </div> <!--end col-left-->
+
+            <div class="col-right">
+
+                <section class="about">
+                    <div class="wrap-h2">
+                        <div class="h2-icon">
+                            <img src="assets/img/about.svg" alt="about me" height="25" width="25">
+                        </div>
+                        <h2>about me</h2>
+                    </div>
+                    <p>
+                        I am Sergey Voronin, an information technology specialist in a government 
+                        organization. I am engaged in the development and technical support of information systems.
+                         I’m 33 and I want to change my field of activity to what I’m really interested in - programming.
+                          I plan to study frontend in rs-school, then backend - C# and .Net and become a first-class 
+                          specialist in the field of web development. There is a lot of hard work ahead, but when, if not now?  
+                    </p>
+                </section> <!--end about-->
+
+                <section class="employment">
+                    <div class="wrap-h2">
+                        <div class="h2-icon"><img src="assets/img/employment.svg" alt="employment history" height="25" width="25"></div>
+                        <h2>employment history</h2>
+                    </div>
+                        <ul class="ul-employ">
+                            <li><p>System administrator</p></li>
+                            <li><p>Specialist of information systems and technologies</p></li>
+                            <li><p>Freelance work, more than 10 ready projects created in HTML, CSS, JS</p></li>
+                            <li><p>Development and promotion of online stores</p></li>
+                        </ul>
+                </section> <!--end employment-->
+
+                <section class="code">
+                    <div class="wrap-h2">
+                        <div class="h2-icon">
+                            <img src="assets/img/code.svg" alt="code example" height="25" width="25">
+                        </div>
+                        <h2>code example</h2>
+                    </div>
+                    <div class="example">
+                        <p>
+                            The user needs to enter the cell number of the chessboard in the required range. If successful, the program executes the code in other java classes, otherwise it is necessary to enter the correct value
+                        </p>
+                        <pre>
+                        <code class="java">
+    import java.io.BufferedReader;
+    import java.io.IOException;
+    import java.io.InputStreamReader;
+
+    public class Reader {
+            public static Chivalry getCheck() throws IOException {
+
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            String coordinates;
+
+            while (true) {
+                System.out.print("Enter number of cell: ");
+                coordinates = reader.readLine();
+
+                if ((coordinates.length() < 3) && (Constants.ALPHABET.contains(coordinates.substring(0, 1))
+                                               && (Constants.NUMERIC.contains(coordinates.substring(1))))) {
+                    System.out.println("Correct input");
+                    return new Chivalry(Constants.ALPHABET.indexOf(coordinates.substring(0, 1)) + 1, 
+                                        Constants.NUMERIC.indexOf(coordinates.substring(1)) + 1);
+                }
+                else System.out.println("Incorrect input, try again\n");
+            }
+        }
+    }
+                        </code>
+                    </pre>
+                    </div>
+                </section> <!--end code-->
+
+            </div>
+        </div> <!--end main-->
+
+        <div class="line"></div>
+
+        <footer>
+            <div class="git">
+                <a href="https://github.com/cyber-drow">
+                    <img src="assets/img/git-logo.svg" alt="logo github" height="45" width="45">
+                </a>
+            </div>
+            <div class="date">
+                <span>2022</span>
+            </div>
+            <div class="logo">
+                <a href="https://rs.school/js-stage0/">
+                    <img src="assets/img/logo.svg" alt="logo rs-school" height="100" width="100">
+                </a>
+                
+            </div>
+        </footer>
+
+        
+      </div>
+
+      <script src="js/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+  </body>
+</html>
