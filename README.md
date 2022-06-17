@@ -1,1 +1,1 @@
-# rsschool-cv
+https://cyber-drow.github.io/rsschool-cv/cv
